@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Create Tomcat Docker Image') {
             steps {
-                sh "docker build D:\\Libraries\\DevOps\\03.Automation-Labs\\MasterClass\\java-tomcat-sample-docker\\target -t tomcatsamplewebapp:${env.BUILD_ID}"
+                sh "docker build D:/Libraries/DevOps/03.Automation-Labs/MasterClass/java-tomcat-sample-docker/ -t tomcatsamplewebapp:${env.BUILD_ID}"
             }
         }        
 
