@@ -1,6 +1,6 @@
 FROM tomcat:8.0
 
-ADD . /usr/local/tomcat/webapps/ROOT
+ADD . /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
