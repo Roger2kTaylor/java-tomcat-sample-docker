@@ -1,6 +1,6 @@
 FROM tomcat:9.0
 
-ADD **/java-tomcat-maven-example.war /usr/local/tomcat/webapps
+RUN cp -a **/*.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
